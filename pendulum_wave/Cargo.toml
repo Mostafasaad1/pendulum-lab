@@ -1,0 +1,11 @@
+[package]
+name = "pendulum_wave"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.23"
+egui = "0.23"
+anyhow = "1.0"
+minifb = "0.28.0"
+glow = "0.12"

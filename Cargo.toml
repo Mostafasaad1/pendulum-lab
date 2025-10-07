@@ -1,0 +1,32 @@
+[workspace]
+members = [
+    "n-pendulum",
+    "single-pendulum", 
+    "pendulum_wave",
+]
+
+resolver = "2"  # Better dependency resolution
+
+[profile.release]
+opt-level = 3
+debug = false
+strip = "none"
+debug-assertions = false
+overflow-checks = false
+lto = false
+panic = 'unwind'
+incremental = false
+codegen-units = 16
+rpath = false
+
+[profile.dev]
+opt-level = 0
+debug = true
+strip = "none"
+debug-assertions = true
+overflow-checks = true
+lto = false
+panic = 'unwind'
+incremental = true
+codegen-units = 256
+rpath = false

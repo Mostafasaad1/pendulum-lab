@@ -1,0 +1,12 @@
+[package]
+name = "single-pendulum"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.23"
+egui = "0.23"
+winit = "0.28"
+glow = "0.13"
+egui-winit = "0.23"
+egui_glow = "0.23"
