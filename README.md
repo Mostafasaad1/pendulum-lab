@@ -49,26 +49,27 @@ This repository represents my **learning journey with Rust**, focusing on:
 ```bash
 git clone https://github.com/Mostafasaad1/pendulum-lab.git
 cd pendulum-lab
-````
+cargo build --profile=release --all
+```
 
 ### 2. Run any project
 
 #### Single Pendulum
-
+![Image title](./media/single-pendulum.gif)
 ```bash
-cargo -vv run -p single-pendulum
+cargo run -p single-pendulum
 ```
 
 #### N-Pendulum (with GUI)
-
+![Image title](./media/n-pendulum.gif)
 ```bash
-cargo -vv run -p n-pendulum
+cargo run -p n-pendulum
 ```
 
 #### Pendulum Wave
-
+![Image title](./media/pendulum_wave.gif)
 ```bash
-cargo -vv run -p pendulum_wave
+cargo run -p pendulum_wave
 ```
 
 ---
